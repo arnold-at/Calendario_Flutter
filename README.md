@@ -1,16 +1,22 @@
-# flutter_application_1
+# Weekly Calendar App
 
-A new Flutter project.
+App de calendario semanal en Flutter con diseño elegante.
 
-## Getting Started
+## Vistas
+- **Week** — calendario semanal + preview del día seleccionado
+- **Day** — timeline hora a hora con indicador de tiempo actual
+- **Agenda** — planificador de los próximos 7 días
 
-This project is a starting point for a Flutter application.
+## Stack
+- Flutter 3+ / Dart 3+
+- `google_fonts` — tipografías Cormorant + DM Sans
+- `intl` — formato de fechas
 
-A few resources to get you started if this is your first Flutter project:
+## Correr el proyecto
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Paleta
+Warm off-white · Gold `#C19A55` · Sage · Slate · Terracotta
