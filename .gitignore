@@ -1,0 +1,95 @@
+# =========================
+# OS / Sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / temporales
+# =========================
+*.log
+*.tmp
+*.swp
+*.pyc
+*.class
+
+# =========================
+# Editor / IDE
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/*
+
+# Permitir configs compartibles opcionales
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+
+# Docs generados
+doc/api/
+
+# Metadata local
+.metadata
+
+# =========================
+# Archivos generados
+# =========================
+*.g.dart
+*.freezed.dart
+
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+android/local.properties
+
+# Keystore (MUY importante)
+*.jks
+*.keystore
+
+# =========================
+# iOS
+# =========================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+**/ios/Flutter/.last_build_id
+
+# =========================
+# Firebase / secretos
+# =========================
+google-services.json
+GoogleService-Info.plist
+.env
+
+# =========================
+# Misc
+# =========================
+.history
+.svn/
+.atom/
+.build/
+.buildlog/
+.swiftpm/
+migrate_working_dir/
